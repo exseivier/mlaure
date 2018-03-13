@@ -1,8 +1,3 @@
-library(Biostrings)
-library(gridExtra)
-#	OBJECTS
-
-
 #	METHODS
 setGeneric("theBiggestTheBest", function(seqs, cutoff=50L) standardGeneric("theBiggestTheBest"))
 setMethod("theBiggestTheBest", signature("DNAStringSet"),
